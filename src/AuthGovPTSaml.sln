@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{59C9B146-E5B7-429E-B1AD-03727E5C8DAA}"
+	ProjectSection(SolutionItems) = preProject
+		..\AuthGov-ManualIntegracao_v1.4.6.pdf = ..\AuthGov-ManualIntegracao_v1.4.6.pdf
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D962AAFF-BF58-4782-98F8-0FA682F44761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthGovPTSaml.Core", "AuthGovPTSaml.Core\AuthGovPTSaml.Core.csproj", "{D13A3051-E79F-42D7-8C12-1857CCE8D0F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D13A3051-E79F-42D7-8C12-1857CCE8D0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D13A3051-E79F-42D7-8C12-1857CCE8D0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D13A3051-E79F-42D7-8C12-1857CCE8D0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D13A3051-E79F-42D7-8C12-1857CCE8D0F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D13A3051-E79F-42D7-8C12-1857CCE8D0F9} = {D962AAFF-BF58-4782-98F8-0FA682F44761}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4632F8AB-F853-4807-983F-AE19FC8C4DC9}
+	EndGlobalSection
+EndGlobal
